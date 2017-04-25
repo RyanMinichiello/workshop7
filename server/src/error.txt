@@ -1,0 +1,15 @@
+throw er; // Unhandled 'error' event
+^
+
+Error: listen EADDRINUSE :::3000
+at Object.exports._errnoException (util.js:1022:11)
+at exports._exceptionWithHostPort (util.js:1045:20)
+at Server._listen2 (net.js:1259:14)
+at listen (net.js:1295:10)
+at Server.listen (net.js:1391:5)
+at EventEmitter.listen (/Users/ryanminichiello/Documents/326_class_folder/workshop7/server/node_modules/express/lib/application.js:618:24)
+at /Users/ryanminichiello/Documents/326_class_folder/workshop7/server/src/server.js:664:8
+at connectCallback (/Users/ryanminichiello/Documents/326_class_folder/workshop7/server/node_modules/mongodb/lib/mongo_client.js:428:5)
+at /Users/ryanminichiello/Documents/326_class_folder/workshop7/server/node_modules/mongodb/lib/mongo_client.js:347:11
+at _combinedTickCallback (internal/process/next_tick.js:67:7)
+at process._tickCallback (internal/process/next_tick.js:98:9)
