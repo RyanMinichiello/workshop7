@@ -104,8 +104,8 @@ var initialData = {
       "_id": new ObjectID("000000000000000000000001"),
       "contents": []
     }
-  }
-};
+   }
+ };
 
 /**
  * Resets a collection.
